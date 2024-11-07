@@ -2,8 +2,10 @@
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sully-vian&theme=github_dark)
 
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sully-vian&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sully-vian&theme=github_dark)
 
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=sully-vian&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sully-vian&theme=github_dark&utcOffset=1)
 
 ---
