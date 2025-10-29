@@ -41,10 +41,16 @@
     ),
   ))
   #left-section-gap
-  #left-section(title: "Languages", [
-    French (Native)\
-    English (Fluent, C1)\
-    German (A2-B1)
+  #left-section(title: "Technical skills", [
+    - *Programming*: TODO
+    - *Frameworks*: TODO
+    - *Tools*: TODO
+  ])
+  #left-section-gap
+  #left-section(title: "Spoken Languages", [
+    - *French* (Native)
+    - *English* (Fluent, C1)
+    - *German* (A2-B1)
   ])
   #left-section-gap
   #left-section(title: "Soft skills", [
@@ -71,22 +77,34 @@
 #show: cv.with(
   title: name,
   subtitle: [
-    Young graduate in Computer Science and Systems Engineering\
-    *Available from March 2026 for a full-time graduation project internship*\
+    Software Engineering Student - TODO \
+    *Available from March 2026 for a 6-month internship (Paris region or remote)*\
   ],
-  avatar: image("assets/avatar.png"),
+  avatar: image("assets/penguin-square.jpg"),
   avatar-size: 2.2cm,
   left-content: left-content,
 )
 
 
 #right-column-subtitle("Education")
+#cv-entry(
+  title: [
+    *Erasmus exchange semester*
+  ],
+  date: "Sep 2025 - Feb 2026",
+  subtitle: [Konstanz Hochschule, Konstanz, Germany],
+  [
+    - Cloud Application Development (Google Cloud, Docker, GitHub Actions CI)
+  ],
+)
+
+#entry-gap
 
 #cv-entry(
   title: [
     *Master's Degree in CS and Software Engineering*
   ],
-  date: "2023 - 2026",
+  date: "Sep 2023 - Sep 2026",
   subtitle: [ENSEEIHT, Toulouse, France],
   [
     - Specialisation: Formal Methods and Software & Systems Engineering
@@ -101,7 +119,7 @@
   title: [
     *"Preparatory class"*, Math, Physics, CS
   ],
-  date: "2021 - 2023",
+  date: "Sep 2021 - Jul 2023",
   subtitle: [Janson-De-Sailly highschool, Paris, France],
   [
     - Algebra, Analysis, Functional & dynamic programming, Mechanics, Thermodynamics, Chemistry, Thermochemistry
@@ -114,7 +132,7 @@
   title: [
     *General Baccalaureate*
   ],
-  date: "2014 - 2021",
+  date: "Sep 2014 - Jun 2021",
   subtitle: [Le Caousou highschool, Toulouse, France],
   [
     - Baccalaureate with honors majored in math and physics,  ancient Greek option
@@ -127,20 +145,6 @@
 
 #cv-entry(
   title: [
-    *Particle life simulator*
-  ],
-  date: "2014",
-  subtitle: [ENSEEIHT, OOP class],
-  [
-    - Agile methods and Scrum framework
-    - Java OOP, Java Swing
-  ],
-)
-
-#entry-gap
-
-#cv-entry(
-  title: [
     *Cloud Hervy - Google Drive clone*
   ],
   date: "2024",
@@ -148,6 +152,20 @@
   [
     - Discovery of the JS ecosystem: ExpressJS, TS, Node
     - Development of a REST API (server/client)
+  ],
+)
+
+#entry-gap
+
+#cv-entry(
+  title: [
+    *Particle life simulator*
+  ],
+  date: "2024",
+  subtitle: [ENSEEIHT, OOP class],
+  [
+    - Agile methods and Scrum framework
+    - Java OOP, Java Swing
   ],
 )
 

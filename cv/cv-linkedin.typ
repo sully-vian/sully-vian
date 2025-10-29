@@ -42,9 +42,9 @@
   ))
   #left-section-gap
   #left-section(title: "Technical skills", [
-    - *Programming*: Java 11/17/21, Python 3, JavaScript, TypeScript
-    - *Frameworks*: Swing, Spring, Express.js, Node.js
-    - *Tools*: Git, Linux, Maven, REST APIs, Cloudflare
+    - *Programming*: Java, C, Bash, JS, TS, Python 3
+    - *Frameworks*: Spring, Swing, ExpressJS, OpenMP, OpenGL
+    - *Tools*: Git, Linux, Maven, REST APIs, Cloudflare, Google Cloud
   ])
   #left-section-gap
   #left-section(title: "Spoken Languages", [
@@ -77,8 +77,8 @@
 #show: cv.with(
   title: name,
   subtitle: [
-    Software Engineering Student - Web and Software Development\
-    *Available from March 2026 for a 6-month internship (Paris region or remote)*\
+    Software Engineering Student \
+    *Seeking a 6-month Master's thesis internship (from march 2026, Paris or remote)* \
   ],
   avatar: image("assets/penguin-square.jpg"),
   avatar-size: 2.2cm,
@@ -87,13 +87,12 @@
 
 
 #right-column-subtitle("Education")
-
 #cv-entry(
   title: [
     *Erasmus exchange semester*
   ],
   date: "Sep 2025 - Feb 2026",
-  subtitle: [Konstanz Hochschule, Konstanz, Germany],
+  subtitle: [Hochschule Konstanz, Konstanz, Germany],
   [
     - Cloud Application Development (Google Cloud, Docker, GitHub Actions CI)
   ],
@@ -108,9 +107,9 @@
   date: "Sep 2023 - Sep 2026",
   subtitle: [ENSEEIHT, Toulouse, France],
   [
-    - Specialisation: Software & Systems Engineering
-      - Full Web application (Java, React, SQL)
-      - Peer to Peer file sharing system (Java, Swing)
+    - Specialisation: Formal Methods and Software & Systems Engineering
+    - Practical coursework and lab work in software development, verification and theoretical computer science
+    - Team projects in software engineering, web dev and formal methods
   ],
 )
 
@@ -151,8 +150,8 @@
   date: "2024",
   subtitle: [Personal project],
   [
-    - Designed a full-stack file-storage app and REST API using Express.js, Typescript, Node.js and MongoDB
-    - Focus on modularity and maintainability
+    - Discovery of the JS ecosystem: ExpressJS, TS, Node
+    - Development of a REST API (server/client)
   ],
 )
 
@@ -165,8 +164,8 @@
   date: "2024",
   subtitle: [ENSEEIHT, OOP class],
   [
-    - Developed an interactive particle simulation using Java and Swing
-    - Practiced OOP design patterns and agile teamwork
+    - Agile methods and Scrum framework
+    - Java OOP, Java Swing
   ],
 )
 
@@ -194,7 +193,7 @@
   date: "Jun 2024",
   subtitle: [Les Maths En Scène, Toulouse, France],
   [
-    - Redesigned the association's digital identity by revamping its website
+    - Redesigned the association's digital identity by revamping its website (WordPress web development).
   ],
 )
 
@@ -207,7 +206,8 @@
   date: "2022 - present",
   subtitle: [Toulouse & Paris, France],
   [
-    - Weekly home tutoring / Volunteer tutoring in a Parisian highschool
+    - Weekly home tutoring
+    - Volunteer tutoring in a Parisian highschool
   ],
 )
 

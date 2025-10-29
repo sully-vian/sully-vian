@@ -41,16 +41,10 @@
     ),
   ))
   #left-section-gap
-  #left-section(title: "Technical skills", [
-    - *Programming*: Java 11/17/21, Python 3, JavaScript, TypeScript
-    - *Frameworks*: Swing, Spring, Express.js, Node.js
-    - *Tools*: Git, Linux, Maven, REST APIs, Cloudflare
-  ])
-  #left-section-gap
-  #left-section(title: "Spoken Languages", [
-    - *French* (Native)
-    - *English* (Fluent, C1)
-    - *German* (A2-B1)
+  #left-section(title: "Languages", [
+    French (Native)\
+    English (Fluent, C1)\
+    German (A2-B1)
   ])
   #left-section-gap
   #left-section(title: "Soft skills", [
@@ -77,8 +71,8 @@
 #show: cv.with(
   title: name,
   subtitle: [
-    Software Engineering Student - Web and Software Development\
-    *Available from March 2026 for a 6-month internship (Paris region or remote)*\
+    Young graduate in Computer Science and Systems Engineering\
+    *Available from March 2026 for a full-time graduation project internship*\
   ],
   avatar: image("assets/penguin-square.jpg"),
   avatar-size: 2.2cm,
@@ -90,27 +84,14 @@
 
 #cv-entry(
   title: [
-    *Erasmus exchange semester*
-  ],
-  date: "Sep 2025 - Feb 2026",
-  subtitle: [Konstanz Hochschule, Konstanz, Germany],
-  [
-    - Cloud Application Development (Google Cloud, Docker, GitHub Actions CI)
-  ],
-)
-
-#entry-gap
-
-#cv-entry(
-  title: [
     *Master's Degree in CS and Software Engineering*
   ],
-  date: "Sep 2023 - Sep 2026",
+  date: "2023 - 2026",
   subtitle: [ENSEEIHT, Toulouse, France],
   [
-    - Specialisation: Software & Systems Engineering
-      - Full Web application (Java, React, SQL)
-      - Peer to Peer file sharing system (Java, Swing)
+    - Specialisation: Formal Methods and Software & Systems Engineering
+    - Practical coursework and lab work in software development, verification and theoretical computer science
+    - Team projects in software engineering, web dev and formal methods
   ],
 )
 
@@ -120,7 +101,7 @@
   title: [
     *"Preparatory class"*, Math, Physics, CS
   ],
-  date: "Sep 2021 - Jul 2023",
+  date: "2021 - 2023",
   subtitle: [Janson-De-Sailly highschool, Paris, France],
   [
     - Algebra, Analysis, Functional & dynamic programming, Mechanics, Thermodynamics, Chemistry, Thermochemistry
@@ -133,7 +114,7 @@
   title: [
     *General Baccalaureate*
   ],
-  date: "Sep 2014 - Jun 2021",
+  date: "2014 - 2021",
   subtitle: [Le Caousou highschool, Toulouse, France],
   [
     - Baccalaureate with honors majored in math and physics,  ancient Greek option
@@ -146,13 +127,13 @@
 
 #cv-entry(
   title: [
-    *Cloud Hervy - Google Drive clone*
+    *Particle life simulator*
   ],
-  date: "2024",
-  subtitle: [Personal project],
+  date: "2014",
+  subtitle: [ENSEEIHT, OOP class],
   [
-    - Designed a full-stack file-storage app and REST API using Express.js, Typescript, Node.js and MongoDB
-    - Focus on modularity and maintainability
+    - Agile methods and Scrum framework
+    - Java OOP, Java Swing
   ],
 )
 
@@ -160,13 +141,13 @@
 
 #cv-entry(
   title: [
-    *Particle life simulator*
+    *Cloud Hervy - Google Drive clone*
   ],
   date: "2024",
-  subtitle: [ENSEEIHT, OOP class],
+  subtitle: [Personal project],
   [
-    - Developed an interactive particle simulation using Java and Swing
-    - Practiced OOP design patterns and agile teamwork
+    - Discovery of the JS ecosystem: ExpressJS, TS, Node
+    - Development of a REST API (server/client)
   ],
 )
 
@@ -194,7 +175,7 @@
   date: "Jun 2024",
   subtitle: [Les Maths En Scène, Toulouse, France],
   [
-    - Redesigned the association's digital identity by revamping its website
+    - Redesigned the association's digital identity by revamping its website (WordPress web development).
   ],
 )
 
@@ -207,7 +188,8 @@
   date: "2022 - present",
   subtitle: [Toulouse & Paris, France],
   [
-    - Weekly home tutoring / Volunteer tutoring in a Parisian highschool
+    - Weekly home tutoring
+    - Volunteer tutoring in a Parisian highschool
   ],
 )
 
