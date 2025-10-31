@@ -42,7 +42,7 @@
   ))
   #left-section-gap
   #left-section(title: "Technical skills", [
-    - *Programming*: Java, C, Bash, JS, TS, Python 3
+    - *Programming*: Java, C/C++, Bash, JS, TS, Python 3, ADA
     - *Frameworks*: Spring, Swing, ExpressJS, OpenMP, OpenGL
     - *Tools*: Git, Linux, Maven, REST APIs, Cloudflare, Google Cloud
   ])
