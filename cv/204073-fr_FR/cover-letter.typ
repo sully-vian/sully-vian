@@ -32,5 +32,3 @@ Au-delà des compétences techniques, mon esprit d'équipe (forgé lors de mes p
 Je suis disponible dès mars 2026 pour un stage Projet de Fin d'Études de 6 mois. Je vous invite à consulter mes projets sur GitHub (https://github.com/sully-vian ) pour plus de détails et me tiens à votre entière disposition pour un entretien.
 
 Dans l'attente de vous lire, veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
-
-Cordialement,
