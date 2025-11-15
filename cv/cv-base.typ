@@ -4,8 +4,8 @@
 
 #let name = "Vianney Hervy"
 #let mail = "vianney.hervy@etu.inp-n7.fr"
-#let github = "www.github.com/sully-vian"
-#let linkedin = "www.linkedin.com/in/vianney-hervy-9b6493265/"
+#let github = "https://github.com/sully-vian"
+#let linkedin = "https://linkedin.com/in/vianney-hervy-9b6493265/"
 
 #let entry-gap = v(1fr / 2)
 #let section-gap = v(1fr / 2)
@@ -49,8 +49,10 @@
   #left-section-gap
   #left-section(title: "Spoken Languages", [
     - *French* (Native)
-    - *English* (Fluent, C1)
-    - *German* (A2-B1)
+    - *English* (C1)
+      - 2-year US expat & classes
+    - *German* (B1)
+      - Erasmus exchange & classes
   ])
   #left-section-gap
   #left-section(title: "Soft skills", [
@@ -150,7 +152,7 @@
   date: "2024",
   subtitle: [Personal project],
   [
-    - Discovery of the JS ecosystem: ExpressJS, TS, Node
+    - Discovery of the JS ecosystem: Express.js, TS, Node
     - Development of a REST API (server/client)
   ],
 )

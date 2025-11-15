@@ -4,8 +4,8 @@
 
 #let name = "Vianney Hervy"
 #let mail = "vianney.hervy@etu.inp-n7.fr"
-#let github = "www.github.com/sully-vian"
-#let linkedin = "www.linkedin.com/in/vianney-hervy-9b6493265/"
+#let github = "https://github.com/sully-vian"
+#let linkedin = "https://linkedin.com/in/vianney-hervy-9b6493265/"
 
 #let entry-gap = v(1fr / 2)
 #let section-gap = v(1fr / 2)
@@ -45,32 +45,34 @@
     - *Langages*: Java (11/17), Python 3, ADA, Bash
     - *Frameworks*: java.net, Swing, TensorFlow, Docker
     - *Tests & qualité*: Locust, JUnit, vérification statique
-    - *Outils*: Git, Linux, Maven, GitLab, GitHub Actions
+    - *Outils*: Git, Linux, Maven, GitHub Actions
   ])
   #left-section-gap
   #left-section(title: "Langues", [
     - *Français* (Maternelle)
-    - *Anglais* (Courant, C1)
-    - *Allemand* (A2-B1)
+    - *Anglais* (C1)
+      - Expat. 2 ans (USA) & cours
+    - *Allemand* (B1)
+      - Semestre Erasmus & cours
   ])
   #left-section-gap
   #left-section(title: "Soft skills", [
     - *Esprit d'équipe*
-      - scoutisme
-      - projets scolaires
-      - organisation d'événements nationaux pour jeunes adultes (#link("https://www.sessionexode.com/")[Session Exode])
+      - Scoutisme
+      - Projets scolaires
+      - Événementiel national (#link("https://www.sessionexode.com/")[Session Exode])
     - *Esprit critique*
-      - cours d'épistémologie, zététique et RSE
+      - Cours d'épistémologie, zététique et RSE
     - *Pédagogie*
-      - scoutisme
-      - tutorat
+      - Scoutisme
+      - Tutorat
     - *Curiosité*
-      - Veille technologique active (articles, vidéos)
-      - Intérêt pour les projets open-source dans l'objectif d'une contribution éventuelle
+      - Veille technologique active
+      - Suivi de projets open-source
   ])
   #left-section-gap
   #left-section(title: "Centres d'intérêt", [
-    - projets open-source
+    - Projets open-source
     - GNU/Linux, scripting, automatisation
     - Scoutisme (10 ans)
     - Escalade (quand j'ai le temps)
@@ -83,9 +85,9 @@
   title: name,
   subtitle: [
     Étudiant en Génie Logiciel à l'ENSEEIHT - Recherche un stage en développement Logiciel\
-    *Disponible dès mars 2026 - Projet de fin d'études 6 mois (Île-de-France ou télétravail)*\
+    *Disponible dès mars 2026 - Projet de fin d'études 6 mois (Île-de-France)*\
   ],
-  //avatar: image("../assets/penguin-square.jpg"),
+  avatar: image("../assets/penguin-square.jpg"),
   avatar-size: 2.2cm,
   left-content: left-content,
 )
@@ -95,7 +97,7 @@
   title: [
     *Semestre d'échange Erasmus*
   ],
-  date: "sep 2025 - fev 2026",
+  date: "sept. 2025 - févr. 2026",
   subtitle: [Konstanz Hochschule, Konstanz, Allemagne],
   [
     - Géométrie Algorithmique (Qt, OpenGL, C/C++)
@@ -109,7 +111,7 @@
   title: [
     *Master d'ingénieur en systèmes logiciels*
   ],
-  date: "sep 2023 - sep 2026",
+  date: "sept. 2023 - sept. 2026",
   subtitle: [ENSEEIHT, Toulouse, France],
   [
     - Développement Java OOP (application locale, application réseau et web)
@@ -124,11 +126,9 @@
   title: [
     *Classe Préparatoire*, MPSI - MP option info
   ],
-  date: "sep 2021 - juillet 2023",
+  date: "sept. 2021 - juil. 2023",
   subtitle: [Lycée Janson-De-Sailly, Paris, France],
-  [
-    - Préparation aux concours Centrale, Mines-ponts et CCP
-  ],
+  [],
 )
 
 #entry-gap
@@ -137,10 +137,10 @@
   title: [
     *Baccalauréat général*
   ],
-  date: "sep 2014 - juin 2021",
-  subtitle: [Le Caousou highschool, Toulouse, France],
+  date: "sept. 2014 - juin 2021",
+  subtitle: [Lycée Le Caousou, Toulouse, France],
   [
-    - Diplôme avec mention, spécialités maths-physique, option grec ancien
+    - Bac mention Bien, spécialités maths-physique-anglais, option grec ancien
   ],
 )
 
@@ -173,7 +173,7 @@
   date: "2025 - 2026",
   subtitle: [Hochschule Konstanz, Projet de groupe de Développement Cloud],
   [
-    - Backend ExpressJS et Prisma (Postgres) - Frontend NextJS, React et Tailwind
+    - Backend Express.js et Prisma (Postgres) - Frontend Next.js, React et Tailwind
     - Déploiement Google Cloud avec Docker, Terraform et GitHub Actions
   ],
 )
@@ -186,7 +186,7 @@
   title: [
     *Stagiaire développeur en laboratoire de recherche*
   ],
-  date: "juin - juillet 2025",
+  date: "juin - juil. 2025",
   subtitle: [IRIT, Toulouse, France],
   [
     - Conception et développement d'un processeur d'annotations Java supportant la programmation par contrat
@@ -228,8 +228,7 @@
   date: "2023",
   subtitle: [Les jardins d'Arcadie, Résidence pour séniors, Toulouse, France],
   [
-    - Service au restaurant de la résidence
-    - Livraison en chambre des repas pour les résidents les plus handicapés
+    - Service au restaurant et en chambre pour les résidents handicapés
   ],
 )
 
@@ -237,10 +236,7 @@
 
 #cv-entry(
   title: [*Stagiaire en observation*, Laboratoires de recherche],
-  date: "déc 2017 & juin 2019",
+  date: "déc. 2017 & juin 2019",
   subtitle: [BIPM & IRAP, Toulouse & Paris, France],
-  [
-    - Découverte des études menées pour améliorer les unités de mesures
-    - Familiarisation avec les méthodes de développement d'une mission spatiale
-  ],
+  [],
 )

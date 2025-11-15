@@ -2,7 +2,7 @@
 
 \
 
-Capgemini Engineering, leader mondial des services d'ingénierie , rassemble des équipes d'ingénieurs , de scientifiques et d'architectes pour aider les entreprises les plus innovantes dans le monde à libérer leur potentiel . Des voitures autonomes aux robots qui sauvent des vies, nos experts en technologies digitales et logicielles sortent des sentiers battus en fournissant des services uniques de R&D et d'ingénierie dans tous les secteurs d'activité . Rejoignez nous pour une carrière pleine d'opportunités , où vous pouvez faire la différence et où aucun jour ne se ressemble
+Capgemini Engineering, leader mondial des services d'ingénierie, rassemble des équipes d'ingénieurs , de scientifiques et d'architectes pour aider les entreprises les plus innovantes dans le monde à libérer leur potentiel. Des voitures autonomes aux robots qui sauvent des vies, nos experts en technologies digitales et logicielles sortent des sentiers battus en fournissant des services uniques de R&D et d'ingénierie dans tous les secteurs d'activité . Rejoignez nous pour une carrière pleine d'opportunités , où vous pouvez faire la différence et où aucun jour ne se ressemble
 
 == Vos Missions:
 
