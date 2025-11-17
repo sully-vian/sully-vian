@@ -1,8 +1,4 @@
-= #link(
-  "https://sii-group.com/fr-FR/offers/developpement/ingenieure-developpement-logiciel-fh",
-)[Ingénieur.e Développement logiciel (F/H)]
-
-\
+# [Ingénieur.e Développement logiciel (F/H)](https://sii-group.com/fr-FR/offers/developpement/ingenieure-developpement-logiciel-fh)
 
 Imaginez-vous plongé.e dans l'univers passionnant des systèmes d’information et de communication sécurisés pour les forces armées et les forces de sécurité. Nous recherchons un.e stagiaire de fin d’études pour intégrer une équipe au forfait pour notre client. Vous rejoindrez un laboratoire spécialisé en liaison de données tactiques au sein d’une équipe de 12 personnes, fonctionnant en AGILE, externalisée dans les locaux SII de Genevilliers.
 
@@ -21,5 +17,5 @@ Rejoindre le groupe SII, c'est intégrer une entreprise où l'innovation et la t
 
 Prêt.e à relever le défi ? N'attendez plus, postulez dès maintenant et embarquez pour une aventure professionnelle enrichissante et stimulante !
 
-*Compétences requises:* GIT, JAVA, Jenkins, Python
+**Compétences requises:** GIT, JAVA, Jenkins, Python
 

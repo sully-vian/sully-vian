@@ -1,10 +1,8 @@
-= #link("https://www.capgemini.com/fr-fr/jobs/204073-fr_FR+sap_btp/")[Développeuse/Développeur Full Stack - Stage]
-
-\
+# [Développeuse/Développeur Full Stack - Stage](https://www.capgemini.com/fr-fr/jobs/204073-fr_FR+sap_btp/)
 
 Capgemini Engineering, leader mondial des services d'ingénierie, rassemble des équipes d'ingénieurs , de scientifiques et d'architectes pour aider les entreprises les plus innovantes dans le monde à libérer leur potentiel. Des voitures autonomes aux robots qui sauvent des vies, nos experts en technologies digitales et logicielles sortent des sentiers battus en fournissant des services uniques de R&D et d'ingénierie dans tous les secteurs d'activité . Rejoignez nous pour une carrière pleine d'opportunités , où vous pouvez faire la différence et où aucun jour ne se ressemble
 
-== Vos Missions:
+## Vos Missions:
 
 Dans le cadre du projet MOBHEEL, vous participerez au développement d'une plateforme web innovante dédiée à la mobilité électrique, visant à mettre en relation conducteurs de véhicules électriques et propriétaires de bornes de recharge privées.
 
@@ -17,20 +15,20 @@ Vos responsabilités seront les suivantes :
 - Participer à la modélisation des données et à la mise en place de la stack technique (Spring Boot, React.js/Angular, Docker)
 - Contribuer à la documentation technique et à la préparation des livrables.
 
-== Votre profil :
+## Votre profil :
 
 - Étudiant(e) en Master en Informatique, Génie logiciel ou équivalent
 - Compétences en développement Java (Spring Boot), JavaScript (React.js ou Angular), et bases de données relationnelles (MySQL)
 - Connaissances en API REST, sécurité web, et conteneurisation (Docker)
 - Esprit d'équipe, rigueur et curiosité intellectuelle
 
-== 3 raisons de nous rejoindre
+## 3 raisons de nous rejoindre
 
-- *Qualité de vie au travail:* accord de télétravail en France et à l'international, accord sur l'égalité professionnelle, la parentalité, l'équilibre des temps et la mobilité durable.
-- *Apprentissage en continu:* certifications et formations en libre accès, accompagnement sur mesure avec votre career manager, parcours d'intégration sur 9 mois.
-- *Avantages groupe & CSE*: plan actionnariat, activités à tarifs préférentiels, remboursement partiel vacances, remboursement de votre abonnement sportif ou culturel.
+- **Qualité de vie au travail:** accord de télétravail en France et à l'international, accord sur l'égalité professionnelle, la parentalité, l'équilibre des temps et la mobilité durable.
+- **Apprentissage en continu:** certifications et formations en libre accès, accompagnement sur mesure avec votre career manager, parcours d'intégration sur 9 mois.
+- **Avantages groupe & CSE**: plan actionnariat, activités à tarifs préférentiels, remboursement partiel vacances, remboursement de votre abonnement sportif ou culturel.
 
-== Nos engagements et priorités
+## Nos engagements et priorités
 
 Le groupe Capgemini encourage une culture inclusive dans un cadre multiculturel et handi-accueillant. En nous rejoignant, vous intégrez un collectif qui valorise la diversité, développe le potentiel de ses talents, s'engage dans des initiatives solidaires avec ses partenaires, et se mobilise pour réduire son impact environnemental sur tous ses sites et auprès de ses clients.
 
