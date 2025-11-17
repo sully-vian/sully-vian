@@ -42,10 +42,9 @@
   ))
   #left-section-gap
   #left-section(title: "Hard Skills", [
-    - *Langages*: Java (11/17), Python 3, ADA, Bash
-    - *Frameworks*: java.net, Swing, TensorFlow, Docker
-    - *Tests & qualité*: Locust, JUnit, vérification statique
-    - *Outils*: Git, Linux, Maven, GitHub Actions
+    - *Langages*: Java, JavaScript, TypeScript, C, C++, HTML/CSS
+    - *Frameworks*: Spring Boot, JPA, Next.js, Express.js
+    - *Outils*: Git, APIs REST, JWT, Linux, Docker
   ])
   #left-section-gap
   #left-section(title: "Langues", [
@@ -59,7 +58,7 @@
   #left-section(title: "Soft skills", [
     - *Esprit d'équipe*
       - Scoutisme
-      - Projets scolaires
+      - Projets scolaires (Agile, Scrum)
       - Événementiel national (#underline([#link("https://www.sessionexode.com/")[Session Exode]]))
     - *Esprit critique*
       - Cours d'épistémologie, zététique et RSE
@@ -84,13 +83,14 @@
 #show: cv.with(
   title: name,
   subtitle: [
-    Étudiant en Génie Logiciel à l'ENSEEIHT - Recherche un stage en développement Logiciel\
+    Étudiant en Génie Logiciel à l'ENSEEIHT - Recherche un stage full-stack\
     *Disponible dès mars 2026 - Projet de fin d'études 6 mois (Île-de-France)*\
   ],
   avatar: image("../assets/penguin-square.jpg"),
   avatar-size: 2.2cm,
   left-content: left-content,
 )
+
 
 #right-column-subtitle("Formation")
 #cv-entry(
@@ -100,8 +100,7 @@
   date: "sept. 2025 - févr. 2026",
   subtitle: [Konstanz Hochschule, Konstanz, Allemagne],
   [
-    - Géométrie Algorithmique (Qt, OpenGL, C/C++)
-    - Cybersécurité (principes, CTF)
+    - Développement cloud (Google Cloud, Docker, Next.js, React)
   ],
 )
 
@@ -114,9 +113,8 @@
   date: "sept. 2023 - sept. 2026",
   subtitle: [ENSEEIHT, Toulouse, France],
   [
-    - Développement Java OOP (application locale, application réseau et web)
-    - Programmation impérative bas niveau (ADA, C, ASM)
-    - Apprentissage profond et métaprogrammation (Python 3, Tensorflow)
+    - Développement Java (web et application)
+    - Informatique théorique: vérification statique, programmation fonctionnelle
   ],
 )
 
@@ -150,17 +148,14 @@
 
 #cv-entry(
   title: [
-    #link(
-      "https://github.com/sully-vian/N7-1A/tree/main/PIM/projet-pagerank",
-    )[*Projet PageRank - Outil en ligne de commande*]
+    #link("https://github.com/sully-vian/hagymont")[*HaGymont - Application Web Full-Stack*]
   ],
   date: "2025",
-  subtitle: [ENSEEIHT, Projet de groupe de Programmation Impérative],
+  subtitle: [ENSEEIHT, Projet de groupe d'application web],
   [
-    - algorithme #link("https://en.wikipedia.org/wiki/PageRank")[PageRank] en ADA (classement de pages internet par "popularité")
-    - Gestion des entrées/sorties textuelles
-    - Optimisation de la mémoire et du temps de calcul par matrices creuses
-    - Benchmark comparatif des différentes implémentations
+    - Backend: Spring Boot, authentification JWT, persistance JPA (MySQL)
+    - Frontend: React
+    - Utilisation de l'API de Gemini pour un chatbot intégré
   ],
 )
 
@@ -174,7 +169,7 @@
   subtitle: [Hochschule Konstanz, Projet de groupe de Développement Cloud],
   [
     - Backend Express.js et Prisma (Postgres) - Frontend Next.js, React et Tailwind
-    - Déploiement Google Cloud avec Docker, Terraform et GitHub Actions
+    - Déploiement Google Cloud avec Docker, Cloud Run, Cloud SQL, Terraform et Firestore
   ],
 )
 

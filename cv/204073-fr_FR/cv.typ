@@ -59,7 +59,7 @@
     - *Esprit d'équipe*
       - Scoutisme
       - Projets scolaires
-      - Événementiel national (#link("https://www.sessionexode.com/")[Session Exode])
+      - Événementiel national (#underline([#link("https://www.sessionexode.com/")[Session Exode]]))
     - *Esprit critique*
       - Cours d'épistémologie, zététique et RSE
     - *Pédagogie*
@@ -163,7 +163,7 @@
 
 #cv-entry(
   title: [
-    *Schwarzwald - Application Web Full-Stack*
+    *Schwarzwald - Application Cloud Full-Stack*
   ],
   date: "2025 - 2026",
   subtitle: [Hochschule Konstanz, Projet de groupe de Développement Cloud],
