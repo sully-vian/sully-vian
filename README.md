@@ -1,29 +1,26 @@
 ## Hi there 👋
 
-I like to try building things.
+I am a french computer science student at [ENSEEIHT](https://www.enseeiht.fr/en/index.html).
 
-- 🔭 I'm currently working on a perlin noise cli tool in Ada
-- 👨‍💻 I'm looking for a 6 month intership in the Paris region
+Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https://www.youtube.com/@sully-vian).
 
-Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https://www.youtube.com/@sully-vian)
-
-## Project ideas
+## Project ideas (and things I wanna dive in)
 
 - [ ] Typst library for showing minesweeper
 - [ ] Typst procedural terrain generation
 - [ ] Tree-gitter: VCS but for AST instead of code (based on tree-sitter)
 - [ ] Next.js chatbot webapp
 - [ ] TUI chatbot in go (no edit files)
-- [ ] Flow-sensitive type qualifying
-- [ ] An application that lets you enter how much free time you have and returns a Bible excerpt tailored to that amount of time
-- [ ] WikipedAI (purposely slop)
+- [ ] Flow-sensitive type qualifying: read [this paper](https://theory.stanford.edu/~aiken/publications/papers/pldi02.pdf) to feel smart
+- [ ] An app that gives you Bible passages based on your free time.
+- [ ] WikipedAI: dynamically generated encyclopedia (purposely slop)
 - [ ] Contribute to [La Suite](https://github.com/suitenumerique) (see issues)
-- [ ] Implement a @Concept annotation in Java (cf concepts in C++)
-- [ ] Implement an @Currify annotation for methods (try reverse arg order in Ocaml
-- [ ] Ocaml very strong typing (PF TP6)
+- [ ] `@Concept` annotation for Java (see [C++ concepts](https://en.wikipedia.org/wiki/Concepts_(C%2B%2B)))
+- [ ] `@Currify` annotation for Java methods
+- [ ] [Ocaml advanced typing video](https://github.com/sully-vian/videos/tree/main/advanced-typing)
 - [ ] Play with Shebangs
-- [ ] Undercover
-- [ ] Chrome extension to highlight code when file opened (see Downloads/)
+- [ ] Website for playing the [Undercover](https://www.yanstarstudio.com/en/undercover-game) game
+- [ ] Chrome extension to highlight code when page is a raw file (see Downloads/)
 - [x] [bruyant](https://github.com/sully-vian/bruyant): Typst perlin noise
 - [x] Typst program that displays itself as pdf 
 - [x] [sonada](https://github.com/sully-vian/sonada): Ada CLI perlin noise animation
