@@ -20,11 +20,12 @@ Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https:/
 - [ ] [Ocaml advanced typing video](https://github.com/sully-vian/videos/tree/main/advanced-typing)
 - [ ] Play with Shebangs
 - [ ] Website for playing the [Undercover](https://www.yanstarstudio.com/en/undercover-game) game
-- [ ] Chrome extension to highlight code when page is a raw file (see Downloads/)
+- [ ] [Medium Rare](https://github.com/sully-vian/medium-rare): Chrome extension to highlight code when page is a raw file (+ lang detection, line numbering etc)
 - [ ] [bruyant](https://github.com/sully-vian/bruyant): Typst perlin noise
+- [ ] Zoom where cursor is app (see [https://github.com/tsoding/boomer](https://github.com/tsoding/boomer)
+- [ ] Chrome extension to automatically use incognito mode on Gemini.
 - [x] Typst program that displays itself as pdf 
 - [x] [sonada](https://github.com/sully-vian/sonada): Ada CLI perlin noise animation
 - [x] [maze.toys solver](https://github.com/sully-vian/Maze-Toys-Solver)
-- [ ] Zoom where cursor is app (see [https://github.com/tsoding/boomer](https://github.com/tsoding/boomer)
 
 ---
