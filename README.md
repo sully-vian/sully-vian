@@ -6,6 +6,7 @@ Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https:/
 
 ## Project ideas (and things I wanna dive in)
 
+- [ ] "code actions" on whole files in oil.nvim (format file, list diagnostics...)
 - [ ] Typst library for showing minesweeper
 - [ ] Typst procedural terrain generation
 - [ ] Tree-gitter: VCS but for AST instead of code (based on tree-sitter)
