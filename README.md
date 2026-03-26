@@ -32,5 +32,6 @@ Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https:/
 - [ ] Zoom where cursor is app (see [https://github.com/tsoding/boomer](https://github.com/tsoding/boomer)
 - [ ] Pandoc in Ocaml
 - [ ] Bun FFI module for C structs handling. ([ffiutils](https://github.com/sully-vian/ts/blob/main/src/ffiutils.ts) and [Lazy Access](https://gemini.google.com/app/9f8247b39bf9ed06))
+- [ ] A Prolog solver for LinkedIn's daily puzzles
 
 ---
