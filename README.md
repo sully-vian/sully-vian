@@ -33,5 +33,7 @@ Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https:/
 - [ ] Pandoc in Ocaml
 - [ ] Bun FFI module for C structs handling. ([ffiutils](https://github.com/sully-vian/ts/blob/main/src/ffiutils.ts) and [Lazy Access](https://gemini.google.com/app/9f8247b39bf9ed06))
 - [ ] A Prolog solver for LinkedIn's daily puzzles
+- [ ] A code formatter based off Tree-sitter thar formats like [this](https://pbs.twimg.com/media/HIGf_ScaMAA1Ga3?format=png)
+- [ ] A Tmux plugin to open links with a keybind [like Alacritty](https://wiki.archlinux.org/title/Alacritty#Hints)
 
 ---
