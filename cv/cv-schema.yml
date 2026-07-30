@@ -1,0 +1,180 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Resume Schema
+type: object
+required:
+  - personal_info
+  - role
+  - objective
+  - skills
+  - languages
+  - hobbies
+  - education
+  - projects
+  - experience
+properties:
+  personal_info:
+    type: object
+    required:
+      - name
+      - email
+      - github
+      - linkedin
+      - location
+      - phone
+    properties:
+      name:
+        type: string
+      email:
+        type: string
+        format: email
+      github:
+        type: string
+        format: uri
+      linkedin:
+        type: string
+        format: uri
+      location:
+        type: string
+      phone:
+        type: string
+
+  role:
+    type: string
+
+  objective:
+    type: string
+
+  skills:
+    type: object
+    required:
+      - hard
+      - soft
+    properties:
+      hard:
+        required:
+          - programming_languages
+          - frameworks
+          - tools
+          - concepts
+        type: object
+        properties:
+          programming_languages:
+            type: array
+            items:
+              type: string
+          frameworks:
+            type: array
+            items:
+              type: string
+          tools:
+            type: array
+            items:
+              type: string
+          concepts:
+            type: array
+            items:
+              type: string
+
+      soft:
+        type: object
+        properties:
+          teamwork:
+            type: array
+            items:
+              type: string
+          critical_thinking:
+            type: array
+            items:
+              type: string
+          pedagogy:
+            type: array
+            items:
+              type: string
+
+  languages:
+    type: array
+    items:
+      type: object
+      required:
+        - language
+        - level
+      properties:
+        language:
+          type: string
+        level:
+          type: string
+        details:
+          type: string
+
+  hobbies:
+    type: array
+    items:
+      type: string
+
+  education:
+    type: array
+    items:
+      type: object
+      required:
+        - title
+        - date
+        - institution
+        - location
+        - details
+      properties:
+        title:
+          type: string
+        date:
+          type: string
+        institution:
+          type: string
+        location:
+          type: string
+        details:
+          type: array
+          items:
+            type: string
+
+  projects:
+    type: array
+    items:
+      type: object
+      required:
+        - title
+        - date
+        - context
+        - details
+      properties:
+        title:
+          type: string
+        date:
+          type: string
+        context:
+          type: string
+        details:
+          type: array
+          items:
+            type: string
+
+  experience:
+    type: array
+    items:
+      type: object
+      required:
+        - title
+        - date
+        - location
+        - details
+      properties:
+        title:
+          type: string
+        date:
+          type: string
+        company:
+          type: string
+        location:
+          type: string
+        details:
+          type: array
+          items:
+            type: string

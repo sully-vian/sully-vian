@@ -1,0 +1,209 @@
+$schema: cv-schema.yml
+personal_info:
+  name: Vianney Hervy
+  email: vianney.hervy@etu.inp-n7.fr
+  github: https://github.com/sully-vian
+  linkedin: https://linkedin.com/in/vianney-hervy-9b6493265/
+  location: Konstanz, Germany
+  phone: +33 7 69 88 85 92
+
+role: Software Engineering Student
+objective: Seeking a 6-month Master's thesis internship (from march 2026, Paris or remote)
+
+skills:
+  hard:
+    programming_languages:
+      - Java
+      - Java 11/17/21
+      - C/C++
+      - Bash
+      - JS
+      - TS
+      - JavaScript
+      - TypeScript
+      - Python 3
+      - ADA
+      - HTML/CSS
+      - SQL
+    frameworks:
+      - Spring (Boot)
+      - JPA
+      - React
+      - Next.js
+      - Prisma
+      - TailwindCSS
+      - TensorFlow
+      - Qt
+      - JUnit
+      - Swing
+      - Express.js
+      - OpenMP
+      - OpenGL
+      - Node.js
+    tools:
+      - Git
+      - Linux
+      - Maven
+      - REST APIs
+      - PostgreSQL
+      - JWT
+      - Locust
+      - Cloud SQL
+      - Firestore
+      - GeminiAPI
+      - Cloudflare
+      - Google Cloud
+    concepts:
+      - object-oriented programming
+      - static verification
+      - functional programming
+      - declarative programming
+      - compilation
+  soft:
+    curiosity:
+      - active technological watch
+      - open-source project tracking
+    teamwork:
+      - school project
+      - scouting
+      - Agile/Scrum
+      - National youth events (EXODE)
+    critical_thinking:
+      - epistemology
+      - zetetic
+      - CSR (Corporate Social Responsibility)
+    pedagogy:
+      - scouting
+      - tutoring
+
+languages:
+  - language: French
+    level: Native
+  - language: English
+    level: C1
+    details: 2-year US expat & classes
+  - language: German
+    level: B1
+    details: Erasmus exchange & classes
+
+hobbies:
+  - Open Source Contributions
+  - Computer tweaking
+  - Scripting and automating
+  - Scouting (10 years)
+  - Rock climbing (when I have time)
+  - Biking
+
+education:
+  - title: Erasmus exchange semester
+    date: Sep 2025 - Feb 2026
+    institution: Hochschule Konstanz / Konstanz Hochschule
+    location: Konstanz, Germany
+    details:
+      - Cloud Application Development (Google Cloud, Docker, GitHub Actions CI)
+      - Algorithmic Geometry (Qt, OpenGL, C++)
+      - Cybersecurity principles & CTFs
+  - title: Master's Degree in CS and Software Engineering
+    date: Sep 2023 - Sep 2026 / 2023 - 2026
+    institution: ENSEEIHT
+    location: Toulouse, France
+    details:
+      - Specialisation in Formal Methods and Software & Systems Engineering
+      - Practical coursework and lab work in software development, verification and theoretical computer science
+      - Team projects in software engineering, web dev and formal methods
+      - Full Web application (Java, React, SQL)
+      - Peer to Peer file sharing system (Java, Swing)
+      - Low-level imperative programming (ADA, C, ASM)
+      - Deep learning, LLM fine-tuning
+      - Metaprogramming (Java, Python 3)
+  - title: Preparatory class, Math, Physics, CS
+    date: Sep 2021 - Jul 2023 / 2021 - 2023
+    institution: Janson-De-Sailly highschool
+    location: Paris, France
+    details:
+      - Algebra, Analysis, Functional & dynamic programming, Mechanics, Thermodynamics, Chemistry, Thermochemistry
+  - title: General Baccalaureate
+    date: Sep 2014 - Jun 2021 / 2014 - 2021
+    institution: Le Caousou highschool
+    location: Toulouse, France
+    details:
+      - Baccalaureate with honors majored in math and physics, ancient Greek option
+
+projects:
+  - title: HaGymont - Full-Stack Web Application
+    date: "2026"
+    context: ENSEEIHT, Web Application class group project
+    details:
+      - Backend in Spring Boot, JWT authentication, JPA persistence (MySQL)
+      - Frontend in React, TailwindCSS
+      - Integrated Gemini API chatbot
+      - Detailed backend API documentation (SpringDoc)
+  - title: Schwarzwald - Full-Stack Cloud Application
+    date: 2025 - 2026
+    context: Hochschule Konstanz, Cloud Development group project
+    details:
+      - Backend in Express.js and Prisma (Postgres)
+      - Frontend in Next.js, React, and Tailwind
+      - Deployment on Google Cloud using Docker, Cloud Run, Cloud SQL, Terraform, and Firestore
+      - CI/CD integration with GitHub Actions
+  - title: PageRank Project - Command Line Tool
+    date: "2025"
+    context: ENSEEIHT, Imperative Programming group project
+    details:
+      - PageRank algorithm implementation in ADA for ranking web pages
+      - Textual inputs/outputs management
+      - Memory optimization and computational time reduction using sparse matrices
+      - Comparative benchmarks of dense and sparse implementations
+  - title: Cloud Hervy - Google Drive clone
+    date: "2024"
+    context: Personal project
+    details:
+      - Discovery of the JS ecosystem with Express.js, TS, Node
+      - Development of a REST API (server/client)
+      - Designed a full-stack file-storage app and REST API using Express.js, Typescript, Node.js and MongoDB
+      - Focus on modularity and maintainability
+  - title: Particle life simulator
+    date: "2024"
+    context: ENSEEIHT, OOP class
+    details:
+      - Agile methods and Scrum framework
+      - Java OOP, Java Swing
+      - Developed an interactive particle simulation using Java and Swing
+      - Practiced OOP design patterns and agile teamwork
+
+experience:
+  - title: Intern Software developer
+    date: Jun - Jul 2025
+    company: IRIT
+    location: Toulouse, France
+    details:
+      - Developed a Java annotation processor that generates runtime contract checks from JML-style specifications using ANTLR and JavaC AST manipulation, delivered as a tool for student use.
+  - title: Intern WordPress Developer
+    date: Jun 2024
+    company: Les Maths En Scène
+    location: Toulouse, France
+    details:
+      - Redesigned the association's digital identity by revamping its website
+      - WordPress web development)
+  - title: Private Maths and Physics Tutor, Freelance
+    date: 2022 - present
+    location: Toulouse & Paris, France
+    details:
+      - Help in preparation for the École de Santé des Armées entrance exam
+      - Weekly home tutoring
+      - Volunteer tutoring in a Parisian highschool
+  - title: Waiter
+    date: "2023"
+    company: Arcadie's Gardens (senior's residence)
+    location: Toulouse, France
+    details:
+      - Service at the residence restaurant
+      - Meal delivery to apartments for the most disabled residents
+  - title: Shadowing intern, Public research labs
+    date: Dec 2017 & Jun 2019
+    company: BIPM & IRAP
+    location: Toulouse & Paris, France
+    details:
+      - Exploration of work conducted on measurement units
+      - Understanding the importance of teamwork (international, inter-laboratory)
+      - Familiarization with methods for designing space missions
