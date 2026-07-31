@@ -13,23 +13,26 @@ objective: Seeking a 6-month Master's thesis internship (from march 2026, Paris 
 skills:
   hard:
     programming_languages:
+      - PHP
       - Java
       - Java 11/17/21
       - C/C++
       - Bash
-      - JS
-      - TS
-      - JavaScript
-      - TypeScript
+      - JS/TS & JSX/TSX
+      - Twig
       - Python 3
       - ADA
       - HTML/CSS
       - SQL
+      - Lua
     frameworks:
+      - Symfony
+      - Doctrine
       - Spring (Boot)
       - JPA
       - React
       - Next.js
+      - Stimulus
       - Prisma
       - TailwindCSS
       - TensorFlow
@@ -39,18 +42,20 @@ skills:
       - Express.js
       - OpenMP
       - OpenGL
-      - Node.js
+      - GitHub Actions
     tools:
       - Git
       - Linux
-      - Maven
+      - tmux
+      - Typst
+      - LaTeX
       - REST APIs
       - PostgreSQL
       - JWT
       - Locust
       - Cloud SQL
       - Firestore
-      - GeminiAPI
+      - Gemini API
       - Cloudflare
       - Google Cloud
     concepts:
@@ -59,6 +64,7 @@ skills:
       - functional programming
       - declarative programming
       - compilation
+      - langugae server
   soft:
     curiosity:
       - active technological watch
@@ -130,6 +136,30 @@ education:
       - Baccalaureate with honors majored in math and physics, ancient Greek option
 
 projects:
+  - title: Jspec - A Java annotation processor for Design by Contract
+    date: Jun - Jul 2025
+    context: Intership at IRIT laboratory, learning material for 1st year students
+    details:
+      - Developed a Java annotation processor to generate runtime assertions from JML-style speicifcations
+      - Designed a DSL for expressing precondition, postconditions and invariants with an ANTLR grammar
+      - Implemented a multi-pass JavaC AST manipulation process to generate additional bytecode at compilation
+  - title: bun-ffi-extra - Bun FFI extension to support C structs, unions
+    date: Mar - Jun 2026
+    context: Personal use for a C project rewrite in TS
+    details:
+      - Developed a TypeScript extension for Bun's FFI to enable direct interoperability with C derived types
+      - Leveraged TypeScript's type system's expressivity to properly describe C types
+      - Designed custom memory layout calculations and data view mapping to ensure alignment between C memory and TypeScript objects
+      - Built a comprehensive integration test suite integrated it to a CI workflow
+      - Versioned and distributed the package on the NPM Registry
+  - title: Dotfiles - ever-extending highly custom configuration for my daily use
+    date: Jun 2024 - Present
+    context: Personal use
+    details:
+      - Configured i3wm, Tmux, and Neovim for a fast, keyboard-driven workflow
+      - Developed Bash scripts parsing Git internals to automate Tmux environment setups
+      - Built a dynamic shell prompt tracking Git state, SSH connections, and VPN status
+      - Created custom dmenu scripts for application launching and system power management
   - title: HaGymont - Full-Stack Web Application
     date: "2026"
     context: ENSEEIHT, Web Application class group project
@@ -172,6 +202,12 @@ projects:
       - Practiced OOP design patterns and agile teamwork
 
 experience:
+  - title: Intern Symfony developer
+    date: Mar - Sep 2026
+    company: Actimage
+    location: Paris, France
+    details:
+      - Full enterprise web application for the National Office for Veterans and Victims of War
   - title: Intern Software developer
     date: Jun - Jul 2025
     company: IRIT
@@ -186,7 +222,7 @@ experience:
       - Redesigned the association's digital identity by revamping its website
       - WordPress web development)
   - title: Private Maths and Physics Tutor, Freelance
-    date: 2022 - present
+    date: 2022 - 2026
     location: Toulouse & Paris, France
     details:
       - Help in preparation for the École de Santé des Armées entrance exam
