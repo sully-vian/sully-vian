@@ -1,0 +1,119 @@
+$schema: cv-schema.yml
+personal_info:
+  name: Vianney Hervy
+  email: vian.hervy@gmail.com
+  github: https://github.com/sully-vian
+  linkedin: https://linkedin.com/in/vianney-hervy-9b6493265/
+  location: Paris, Île-de-France
+  phone: +33 7 69 88 85 92
+
+role: Ingénieur Systèmes Logiciels
+objective: Recherche un CDI en conseil IT et stratégie technologique (CTO Advisory) dès octobre 2026 (Île-de-France)
+
+skills:
+  hard:
+    programming_languages:
+      - Python 3
+      - JS/TS & JSX/TSX
+      - Java (11/17/21)
+      - SQL
+    frameworks:
+      - TensorFlow
+      - React
+      - Next.js
+      - Spring (Boot)
+      - GitHub Actions
+    tools:
+      - Google Cloud
+      - Docker
+      - Terraform
+      - Gemini API
+      - PostgreSQL
+      - Git
+    concepts:
+      - Architecture Cloud
+      - IA Générative (LLM)
+      - CI/CD
+      - Accessibilité web (a11y) & HTML sémantique
+      - RSE
+  soft:
+    curiosity:
+      - veille technologique active
+      - exploration des tendances tech
+    teamwork:
+      - Relation client et recueil de besoins
+      - Agile/Scrum
+    critical_thinking:
+      - RSE
+    pedagogy:
+      - démonstrations techniques (vulgarisation client)
+      - tutorat et cours particuliers
+
+languages:
+  - name: Français
+    level: Courant
+  - name: Anglais
+    level: C2 (Linguaskill)
+    details: expat. 2 ans (USA) & cours
+
+hobbies:
+  - Contributions open-source
+  - Scoutisme (10 ans)
+
+education:
+  - title: Ingénieur systèmes logiciels à l'ENSEEIHT
+    date: sept 2023 - sept 2026
+    institution: ENSEEIHT, Toulouse INP
+    location: Toulouse
+    details:
+      - Projets en équipe d'ingénierie logicielle, développement web et méthodes formelles
+      - Apprentissage profond (Deep learning), ajustement fin (fine-tuning) de LLM
+  - title: Semestre Erasmus
+    date: sept 2025 - févr 2026
+    institution: Hochschule Konstanz
+    location: Constance, Allemagne
+    details:
+      - Développement d'applications cloud (Google Cloud, Docker, GitHub Actions CI)
+      - Principes de cybersécurité et CTF
+  - title: Classes préparatoires MPSI, MP option info
+    date: sept 2021 - juill 2023
+    institution: Lycées Janson-de-Sailly
+    location: Paris 7
+    details:
+      - Algèbre, analyse, programmation fonctionnelle et dynamique, mécanique, thermodynamique, chimie, thermochimie
+
+projects:
+  - title: Schwarzwald - SaaS d'organisation de voyage
+    date: 2025 - 2026
+    context: Hochshule Konstanz, projet de groupe du cours de développement cloud
+    details:
+      - Backend en Express.js et Prisma (Postgres)
+      - Frontend en Next.js, React et Tailwind
+      - Déploiement sur Google Cloud utilisant Docker, Cloud Run, Cloud SQL, Terraform et Firestore
+      - Intégration CI/CD avec GitHub Actions
+  - title: HaGymont - Application Web de gestion de salle de sport
+    date: "2026"
+    context: ENSEEIHT, projet de groupe du cours d'Application Web
+    details:
+      - Backend en Spring Boot, authentification JWT, persistance JPA (MySQL)
+      - Frontend en React, TailwindCSS
+      - Intégration d'un chatbot via l'API Gemini
+      - Documentation détaillée de l'API backend (SpringDoc)
+
+experience:
+  - title: Développeur Symfony stagiaire
+    date: mars - sept 2026
+    company: Actimage
+    location: Paris 7
+    details:
+      - Développement d'une application web Symfony de gestion de BDD pour l'ONaCVG (organisame des anciens combattants)
+      - Optimisation des pipelines de déploiement en créant et livrant des images Docker sur les serveurs clients
+      - Application des normes strictes de qualité de code en intégrant des outils statique dans les workflows CI/CD Jenkins
+      - Prise en compte stricte de l'accessibilité web (a11y, attributs ARIA, HTML sémantique)
+      - "Interlocuteur technique principal :  recueil des besoins et animation des démonstrations client"
+  - title: Professeur particulier de Mathématiques et Physique
+    date: 2022 - 2026
+    location: Toulouse & Paris
+    details:
+      - Soutien scolaire hebdomadaire à domicile
+      - Tutorat bénévole dans un lycée parisien

@@ -14,8 +14,7 @@ skills:
   hard:
     programming_languages:
       - PHP
-      - Java
-      - Java 11/17/21
+      - Java (11/17/21)
       - C/C++
       - Bash
       - JS/TS & JSX/TSX
@@ -142,7 +141,7 @@ projects:
     context: Intership at IRIT laboratory, learning material for 1st year students
     details:
       - Developed a Java annotation processor to generate runtime assertions from JML-style speicifcations
-      - Designed a DSL for expressing precondition, postconditions and invariants with an ANTLR grammar
+      - Designed a DSL for expressing pre/postconditions and invariants with an ANTLR grammar
       - Implemented a multi-pass JavaC AST manipulation process to generate additional bytecode at compilation
   - title: bun-ffi-extra - Bun FFI extension to support C pointers, arrays, structs and unions
     date: Mar - Jun 2026
@@ -217,7 +216,7 @@ experience:
     location: Toulouse, France
     details:
       - Engineered a Java annotation processor to generate runtime assertions from JML-style specifications
-      - Designed a custom Domain-Specific Language (DSL) using an ANTLR grammar to express complex preconditions and invariants
+      - Designed a custom Domain-Specific Language (DSL) using an ANTLR grammar to express complex pre/postconditions and invariants
       - Implemented multi-pass AST manipulation in JavaC to dynamically generate bytecode during compilation
   - title: Intern WordPress Developer
     date: Jun 2024

@@ -1,7 +1,7 @@
 #import "@preview/toy-cv:0.1.0": *
 
 // Load the YAML data
-#let data = yaml("base-en.yml")
+#let data = yaml("wavestone.yml")
 
 #let main-color = rgb("#E40019")
 
@@ -18,7 +18,7 @@
 #let left-section-gap = v(1fr / 2)
 
 #let left-content = [
-  #contact-section(main-color: main-color, i18n: "en", contact-entries: (
+  #contact-section(main-color: main-color, i18n: "fr", contact-entries: (
     (
       logo-name: "envelope",
       logo-link: "mailto:" + mail,
@@ -51,14 +51,14 @@
   ))
 
   #left-section-gap
-  #left-section(title: "Technical skills", [
-    - *Programming*: #data.skills.hard.programming_languages.join(", ")
+  #left-section(title: "Hard skills", [
+    - *Langages de programmation*: #data.skills.hard.programming_languages.join(", ")
     - *Frameworks*: #data.skills.hard.frameworks.join(", ")
-    - *Tools*: #data.skills.hard.tools.join(", ")
+    - *Outils*: #data.skills.hard.tools.join(", ")
   ])
 
   #left-section-gap
-  #left-section(title: "Spoken Languages", [
+  #left-section(title: "Langues", [
     #for lang in data.languages [
       - *#lang.name* (#lang.level)
         #if "details" in lang [
@@ -69,22 +69,22 @@
 
   #left-section-gap
   #left-section(title: "Soft skills", [
-    - *Teamwork*
+    - *Travail d'équipe*
       #for item in data.skills.soft.teamwork [
         - #item
       ]
-    - *Critical thinking*
+    - *Esprit critique*
       #for item in data.skills.soft.critical_thinking [
         - #item
       ]
-    - *Pedagogy*
+    - *pédagogie*
       #for item in data.skills.soft.pedagogy [
         - #item
       ]
   ])
 
   #left-section-gap
-  #left-section(title: "Hobbies & Interests", [
+  #left-section(title: "Centres d'intérêt", [
     #for hobby in data.hobbies [
       - #hobby
     ]
@@ -102,7 +102,7 @@
   left-content: left-content,
 )
 
-#right-column-subtitle("Education")
+#right-column-subtitle("Formation")
 #for edu in data.education [
   #cv-entry(
     title: [*#edu.title*],
@@ -119,7 +119,7 @@
 
 #section-gap
 
-#right-column-subtitle("Projects")
+#right-column-subtitle("Projets")
 #for proj in data.projects [
   #cv-entry(
     title: [*#proj.title*],
@@ -136,7 +136,7 @@
 
 #section-gap
 
-#right-column-subtitle("Professional Experience")
+#right-column-subtitle("Expériences professionnelles")
 #for exp in data.experience [
   #cv-entry(
     title: [*#exp.title*],

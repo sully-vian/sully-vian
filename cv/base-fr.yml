@@ -14,8 +14,7 @@ skills:
   hard:
     programming_languages:
       - PHP
-      - Java
-      - Java 11/17/21
+      - Java (11/17/21)
       - C/C++
       - Bash
       - JS/TS & JSX/TSX
@@ -59,29 +58,42 @@ skills:
       - Gemini API
       - Cloudflare
       - Google Cloud
+      - Docker
+      - Terraform
+      - Jenkins
+      - Arduino
+      - Node-RED
     concepts:
-      - programmation orientée-objet
-      - programmation fonctionnelle
-      - programmation déclarative
-      - analyse statique et vérification
-      - compilation
+      - Programmation orientée-objet
+      - Programmation fonctionnelle
+      - Programmation déclarative
+      - Analyse statique et vérification
+      - Compilation
+      - Architecture Cloud
+      - IA Générative (LLM)
+      - CI/CD
       - LSP
+      - Accessibilité web (a11y) & HTML sémantique
+      - Internet des Objets
   soft:
     curiosity:
       - veille technologique active
       - suivi de projets open-source
+      - exploration des tendances tech
     teamwork:
       - projets scolaires
       - scoutisme (10 ans)
       - Agile/Scrum
       - Événementiel national
+      - Relation client et recueil de besoins
     critical_thinking:
       - épistémologie
       - zététique
       - RSE
-    pédagogie:
+    pedagogy:
       - scoutisme (encadrement)
       - tutorat et cours particuliers
+      - démonstrations techniques (vulgarisation client)
 
 languages:
   - name: Français
@@ -107,57 +119,82 @@ education:
     institution: Hochschule Konstanz
     location: Constance, Allemagne
     details:
-      - TODO
+      - Développement d'applications cloud (Google Cloud, Docker, GitHub Actions CI)
+      - Géométrie algorithmique (Qt, OpenGL, C++)
+      - Principes de cybersécurité et CTF
+      - IoT (Arduino, Node-RED)
   - title: Diplôme d'ingénieur en systèmes logiciels à l'ENSEEIHT
     date: sept 2023 - sept 2026
     institution: ENSEEIHT, Toulouse INP
     location: Toulouse
     details:
-      - TODO
+      - Spécialisation en méthodes formelles et ingénierie des logiciels et systèmes
+      - Travaux pratiques et dirigés en développement logiciel, vérification et informatique théorique
+      - Projets en équipe d'ingénierie logicielle, développement web et méthodes formelles
+      - Application web complète (Java, React, SQL)
+      - Système de partage de fichiers en Peer to Peer (Java, Swing)
+      - Programmation impérative bas niveau (Ada, C, ASM)
+      - Apprentissage profond (Deep learning), ajustement fin (fine-tuning) de LLM
+      - Méta-programmation (Java, Python 3)
   - title: Classes préparatoires MPSI, MP option info
     date: sept 2021 - juill 2023
     institution: Lycées Janson-de-Sailly
     location: Paris 7
     details:
-      - TODO
+      - Algèbre, analyse, programmation fonctionnelle et dynamique, mécanique, thermodynamique, chimie, thermochimie
   - title: Baccalauréat général
     date: sept 2014 - juin 2021
     institution: Lycée Le Caousou
     location: Toulouse
     details:
-      - TODO
+      - Baccalauréat général mention bien, spécialités maths, physique et anglais, option grec ancien
 
 projects:
   - title: JSpec - Un processeur d'annotations Java pour la programmation par contrat
     date: juin - juill 2025
     context: Stage au laboratoire IRIT, outil pédagogique pour 1A
     details:
-      - TODO
+      - Développement d'un processeur d'annotations Java pour générer des assertions à l'exécution à partir de spécifications de type JML
+      - Conception d'un langage dédié (DSL) pour exprimer des pré/postconditions et invariants avec une grammaire ANTLR
+      - Implémentation d'un processus de manipulation de l'AST JavaC en plusieurs passes pour générer du bytecode supplémentaire à la compilation
   - title: bun-ffi-extra - Une extension FFI pour Bun qui permet l'utilisation de structs, pointeurs et unions C
     date: mars - juin 2026
     context: Utilisation personnelle pour la récriture d'un projet C en TS
     details:
-      - TODO
+      - Développement d'une extension TypeScript pour la FFI de Bun afin de permettre une interopérabilité directe avec les types dérivés du C
+      - Utilisation de l'expressivité du système de types de TypeScript pour décrire correctement les types C
+      - Conception de calculs de disposition mémoire personnalisés et d'un mappage des vues de données pour assurer l'alignement entre la mémoire C et les objets TypeScript
+      - Création d'une suite complète de tests d'intégration intégrée à un workflow CI
+      - Versionnement et distribution du paquet sur le registre NPM
   - title: Dotfiles - Configuration très custom en constante évolution
     date: juin 2024 - présent
     context: Utilisation personnelle
     details:
-      - TODO
+      - Configuration d'i3wm, Tmux et Neovim pour un workflow rapide centré sur le clavier
+      - Développement de scripts Bash analysant les mécanismes internes de Git pour automatiser la configuration des environnements Tmux
+      - Création d'un prompt shell dynamique suivant l'état de Git, les connexions SSH et le statut du VPN
+      - Création de scripts dmenu personnalisés pour le lancement d'applications et la gestion de l'alimentation du système
   - title: HaGymont - Application Web Full-Stack de gestion de salle de sport
     date: "2026"
     context: ENSEEIHT, projet de groupe du cours d'Application Web
     details:
-      - TODO
-  - title: Schwarzwald - Application Cloud Full-Stack d'organiation de voyage
+      - Backend en Spring Boot, authentification JWT, persistance JPA (MySQL)
+      - Frontend en React, TailwindCSS
+      - Intégration d'un chatbot via l'API Gemini
+      - Documentation détaillée de l'API backend (SpringDoc)
+  - title: Schwarzwald - Application Cloud Full-Stack d'organisation de voyage
     date: 2025 - 2026
-    context: Hochshule Konstanz, projet de groud du cours de développement cloud
+    context: Hochshule Konstanz, projet de groupe du cours de développement cloud
     details:
-      - TODO
+      - Backend en Express.js et Prisma (Postgres)
+      - Frontend en Next.js, React et Tailwind
+      - Déploiement sur Google Cloud utilisant Docker, Cloud Run, Cloud SQL, Terraform et Firestore
+      - Intégration CI/CD avec GitHub Actions
   - title: PageRank - Algorithme de routage et classement réseau
     date: "2023"
     context: ENSEEIHT, Projet de groupe de Programmation Impérative (PIM)
     details:
-      - Implémentaion de l'algo de PageRank entièrement en Ada
+      - Implémentation de l'algo de PageRank entièrement en Ada
       - Conception et évaluation des performances d'implémentation de matrices creuses et pleines
       - Optimisation de l'utilisation de la mémoire et des performances en focntions des résultats d'évaluation
       - Lecture de fichier et extractions de données avec un paquet E/S personnalisé
@@ -166,7 +203,7 @@ projects:
     date: "2024"
     context: Projet personnel
     details:
-      - Conception de l'architectyre d'une app full-stack de stockage de fichiers et d'une API REST
+      - Conception de l'architecture d'une app full-stack de stockage de fichiers et d'une API REST
       - Découverte d'Express.js, TypeScript, Node.js et MongoDB
       - Développement d'une API REST complète (serveur/client)
       - Accentuation sur la modularité et la maintenabilité
@@ -187,6 +224,8 @@ experience:
       - Développement d'une application web Symfony de gestion de BDD pour l'ONaCVG (organisame des anciens combattants)
       - Optimisation des pipelines de déploiement en créant et livrant des images Docker sur les serveurs clients
       - Application des normes strictes de qualité de code en intégrant des outils statique dans les workflows CI/CD Jenkins
+      - Prise en compte stricte de l'accessibilité web (a11y, attributs ARIA, HTML sémantique)
+      - "Interlocuteur technique principal :  recueil des besoins et animation des démonstrations client"
   - title: Développeur logiciel stagiaire
     date: juin - juil 2025
     company: IRIT
@@ -206,7 +245,7 @@ experience:
     location: Toulouse & Paris
     details:
       - Aide à la préparation au concours d'entrée de l'École de Santé des Armées
-      - SOutien scolaire hebdomadaire à domicile
+      - Soutien scolaire hebdomadaire à domicile
       - Tutorat bénévole dans un lycée parisien
   - title: Serveur (restauration)
     date: "2023"
