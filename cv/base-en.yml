@@ -1,14 +1,14 @@
 $schema: cv-schema.yml
 personal_info:
   name: Vianney Hervy
-  email: vianney.hervy@etu.inp-n7.fr
+  email: vian.hervy@gmail.com
   github: https://github.com/sully-vian
   linkedin: https://linkedin.com/in/vianney-hervy-9b6493265/
-  location: Konstanz, Germany
+  location: Paris, France
   phone: +33 7 69 88 85 92
 
-role: Software Engineering Student
-objective: Seeking a 6-month Master's thesis internship (from march 2026, Paris or remote)
+role: Junior Software Engineer
+objective: Seeking a permanent contract in software engineering in Paris
 
 skills:
   hard:
@@ -21,9 +21,10 @@ skills:
       - JS/TS & JSX/TSX
       - Twig
       - Python 3
-      - ADA
+      - Ada
       - HTML/CSS
       - SQL
+      - OCaml
       - Lua
     frameworks:
       - Symfony
@@ -60,18 +61,18 @@ skills:
       - Google Cloud
     concepts:
       - object-oriented programming
-      - static verification
       - functional programming
       - declarative programming
+      - static analysis and verification
       - compilation
-      - langugae server
+      - language server
   soft:
     curiosity:
       - active technological watch
       - open-source project tracking
     teamwork:
-      - school project
-      - scouting
+      - school projects
+      - scouting (10 years)
       - Agile/Scrum
       - National youth events (EXODE)
     critical_thinking:
@@ -83,12 +84,12 @@ skills:
       - tutoring
 
 languages:
-  - language: French
+  - name: French
     level: Native
-  - language: English
-    level: C1
+  - name: English
+    level: C2 (Linguaskill)
     details: 2-year US expat & classes
-  - language: German
+  - name: German
     level: B1
     details: Erasmus exchange & classes
 
@@ -110,8 +111,8 @@ education:
       - Algorithmic Geometry (Qt, OpenGL, C++)
       - Cybersecurity principles & CTFs
   - title: Master's Degree in CS and Software Engineering
-    date: Sep 2023 - Sep 2026 / 2023 - 2026
-    institution: ENSEEIHT
+    date: Sep 2023 - Sep 2026
+    institution: ENSEEIHT, Toulouse INP
     location: Toulouse, France
     details:
       - Specialisation in Formal Methods and Software & Systems Engineering
@@ -119,31 +120,31 @@ education:
       - Team projects in software engineering, web dev and formal methods
       - Full Web application (Java, React, SQL)
       - Peer to Peer file sharing system (Java, Swing)
-      - Low-level imperative programming (ADA, C, ASM)
+      - Low-level imperative programming (Ada, C, ASM)
       - Deep learning, LLM fine-tuning
       - Metaprogramming (Java, Python 3)
   - title: Preparatory class, Math, Physics, CS
-    date: Sep 2021 - Jul 2023 / 2021 - 2023
-    institution: Janson-De-Sailly highschool
+    date: Sep 2021 - Jul 2023
+    institution: Janson-de-Sailly highschool
     location: Paris, France
     details:
       - Algebra, Analysis, Functional & dynamic programming, Mechanics, Thermodynamics, Chemistry, Thermochemistry
   - title: General Baccalaureate
-    date: Sep 2014 - Jun 2021 / 2014 - 2021
+    date: Sep 2014 - Jun 2021
     institution: Le Caousou highschool
     location: Toulouse, France
     details:
       - Baccalaureate with honors majored in math and physics, ancient Greek option
 
 projects:
-  - title: Jspec - A Java annotation processor for Design by Contract
+  - title: JSpec - A Java annotation processor for Design by Contract
     date: Jun - Jul 2025
     context: Intership at IRIT laboratory, learning material for 1st year students
     details:
       - Developed a Java annotation processor to generate runtime assertions from JML-style speicifcations
       - Designed a DSL for expressing precondition, postconditions and invariants with an ANTLR grammar
       - Implemented a multi-pass JavaC AST manipulation process to generate additional bytecode at compilation
-  - title: bun-ffi-extra - Bun FFI extension to support C structs, unions
+  - title: bun-ffi-extra - Bun FFI extension to support C pointers, arrays, structs and unions
     date: Mar - Jun 2026
     context: Personal use for a C project rewrite in TS
     details:
@@ -160,7 +161,7 @@ projects:
       - Developed Bash scripts parsing Git internals to automate Tmux environment setups
       - Built a dynamic shell prompt tracking Git state, SSH connections, and VPN status
       - Created custom dmenu scripts for application launching and system power management
-  - title: HaGymont - Full-Stack Web Application
+  - title: HaGymont - Full-Stack gym management Web Application
     date: "2026"
     context: ENSEEIHT, Web Application class group project
     details:
@@ -168,7 +169,7 @@ projects:
       - Frontend in React, TailwindCSS
       - Integrated Gemini API chatbot
       - Detailed backend API documentation (SpringDoc)
-  - title: Schwarzwald - Full-Stack Cloud Application
+  - title: Schwarzwald - Full-Stack Cloud travel planning Application
     date: 2025 - 2026
     context: Hochschule Konstanz, Cloud Development group project
     details:
@@ -176,29 +177,29 @@ projects:
       - Frontend in Next.js, React, and Tailwind
       - Deployment on Google Cloud using Docker, Cloud Run, Cloud SQL, Terraform, and Firestore
       - CI/CD integration with GitHub Actions
-  - title: PageRank Project - Command Line Tool
+  - title: PageRank - Network routing and Ranking Algorithm
     date: "2025"
     context: ENSEEIHT, Imperative Programming group project
     details:
-      - PageRank algorithm implementation in ADA for ranking web pages
-      - Textual inputs/outputs management
-      - Memory optimization and computational time reduction using sparse matrices
-      - Comparative benchmarks of dense and sparse implementations
+      - Implemented the PageRank algorithm entirely in Ada
+      - Engineered and benchmarked both sparse and dense matrix implementation
+      - Optimized memory and performance depending on the becnhmark results
+      - Managed file parsing and data extraction with a custom I/O package
+      - Authored a comprehensive technical and architectural report
   - title: Cloud Hervy - Google Drive clone
     date: "2024"
     context: Personal project
     details:
-      - Discovery of the JS ecosystem with Express.js, TS, Node
-      - Development of a REST API (server/client)
-      - Designed a full-stack file-storage app and REST API using Express.js, Typescript, Node.js and MongoDB
-      - Focus on modularity and maintainability
+      - Architected a full-stack file-storage app and REST API using common web technologies
+      - Discovered Express.js, Typescript, Node.js and MongoDB
+      - Developed a REST API (server/client)
+      - Made focus on modularity and maintainability
   - title: Particle life simulator
     date: "2024"
     context: ENSEEIHT, OOP class
     details:
-      - Agile methods and Scrum framework
-      - Java OOP, Java Swing
-      - Developed an interactive particle simulation using Java and Swing
+      - Collabored within a Scrum framework to engineer a physics simulator in Java and Swing
+      - Leveraged Java OOP patterns to stucture codebase
       - Practiced OOP design patterns and agile teamwork
 
 experience:
@@ -207,20 +208,23 @@ experience:
     company: Actimage
     location: Paris, France
     details:
-      - Full enterprise web application for the National Office for Veterans and Victims of War
+      - Developed an enterprise-grade DB management Symfony web app for a national agency
+      - Streamlined deployment pipelines by building and delivering Docker images directly to client servers
+      - Enforced strict code quality standards by integrating static analysis tools into Jenkins CI/CD workflows
   - title: Intern Software developer
     date: Jun - Jul 2025
     company: IRIT
     location: Toulouse, France
     details:
-      - Developed a Java annotation processor that generates runtime contract checks from JML-style specifications using ANTLR and JavaC AST manipulation, delivered as a tool for student use.
+      - Engineered a Java annotation processor to generate runtime assertions from JML-style specifications
+      - Designed a custom Domain-Specific Language (DSL) using an ANTLR grammar to express complex preconditions and invariants
+      - Implemented multi-pass AST manipulation in JavaC to dynamically generate bytecode during compilation
   - title: Intern WordPress Developer
     date: Jun 2024
     company: Les Maths En Scène
     location: Toulouse, France
     details:
-      - Redesigned the association's digital identity by revamping its website
-      - WordPress web development)
+      - Modernized the association's digitam identity by completely redisigning their WordPress website
   - title: Private Maths and Physics Tutor, Freelance
     date: 2022 - 2026
     location: Toulouse & Paris, France
@@ -240,6 +244,6 @@ experience:
     company: BIPM & IRAP
     location: Toulouse & Paris, France
     details:
-      - Exploration of work conducted on measurement units
+      - Discovery of work conducted on measurement units and their story
       - Understanding the importance of teamwork (international, inter-laboratory)
       - Familiarization with methods for designing space missions

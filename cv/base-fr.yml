@@ -1,0 +1,225 @@
+$schema: cv-schema.yml
+personal_info:
+  name: Vianney Hervy
+  email: vian.hervy@gmail.com
+  github: https://github.com/sully-vian
+  linkedin: https://linkedin.com/in/vianney-hervy-9b6493265/
+  location: Paris, Île-de-France
+  phone: +33 7 69 88 85 92
+
+role: Ingénieur Systèmes Logiciels
+objective: Recherche un CDI en développement logiciel dès octobre 2026 (Île-de-France)
+
+skills:
+  hard:
+    programming_languages:
+      - PHP
+      - Java
+      - Java 11/17/21
+      - C/C++
+      - Bash
+      - JS/TS & JSX/TSX
+      - Twig
+      - Python 3
+      - ADA
+      - HTML/CSS
+      - SQL
+      - OCaml
+      - Lua
+    frameworks:
+      - Symfony
+      - Doctrine
+      - Spring (Boot)
+      - JPA
+      - React
+      - Next.js
+      - Stimulus
+      - Prisma
+      - TailwindCSS
+      - TensorFlow
+      - Qt
+      - JUnit
+      - Swing
+      - Express.js
+      - OpenMP
+      - OpenGL
+      - GitHub Actions
+    tools:
+      - Git
+      - Linux
+      - tmux
+      - Typst
+      - LaTeX
+      - REST APIs
+      - PostgreSQL
+      - JWT
+      - Locust
+      - Cloud SQL
+      - Firestore
+      - Gemini API
+      - Cloudflare
+      - Google Cloud
+    concepts:
+      - programmation orientée-objet
+      - programmation fonctionnelle
+      - programmation déclarative
+      - analyse statique et vérification
+      - compilation
+      - LSP
+  soft:
+    curiosity:
+      - veille technologique active
+      - suivi de projets open-source
+    teamwork:
+      - projets scolaires
+      - scoutisme (10 ans)
+      - Agile/Scrum
+      - Événementiel national
+    critical_thinking:
+      - épistémologie
+      - zététique
+      - RSE
+    pédagogie:
+      - scoutisme (encadrement)
+      - tutorat et cours particuliers
+
+languages:
+  - name: Français
+    level: Courant
+  - name: Anglais
+    level: C2 (Linguaskill)
+    details: expat. 2 ans (USA) & cours
+  - name: Allemand
+    level: B1
+    details: semestre Erasmus & cours
+
+hobbies:
+  - Contributions open-source
+  - Bidouillage informatique
+  - Scripting et automation
+  - Scoutisme (10 ans)
+  - Escalade
+  - Vélo
+
+education:
+  - title: Semestre Erasmus
+    date: sept 2025 - févr 2026
+    institution: Hochschule Konstanz
+    location: Constance, Allemagne
+    details:
+      - TODO
+  - title: Diplôme d'ingénieur en systèmes logiciels à l'ENSEEIHT
+    date: sept 2023 - sept 2026
+    institution: ENSEEIHT, Toulouse INP
+    location: Toulouse
+    details:
+      - TODO
+  - title: Classes préparatoires MPSI, MP option info
+    date: sept 2021 - juill 2023
+    institution: Lycées Janson-de-Sailly
+    location: Paris 7
+    details:
+      - TODO
+  - title: Baccalauréat général
+    date: sept 2014 - juin 2021
+    institution: Lycée Le Caousou
+    location: Toulouse
+    details:
+      - TODO
+
+projects:
+  - title: JSpec - Un processeur d'annotations Java pour la programmation par contrat
+    date: juin - juill 2025
+    context: Stage au laboratoire IRIT, outil pédagogique pour 1A
+    details:
+      - TODO
+  - title: bun-ffi-extra - Une extension FFI pour Bun qui permet l'utilisation de structs, pointeurs et unions C
+    date: mars - juin 2026
+    context: Utilisation personnelle pour la récriture d'un projet C en TS
+    details:
+      - TODO
+  - title: Dotfiles - Configuration très custom en constante évolution
+    date: juin 2024 - présent
+    context: Utilisation personnelle
+    details:
+      - TODO
+  - title: HaGymont - Application Web Full-Stack de gestion de salle de sport
+    date: "2026"
+    context: ENSEEIHT, projet de groupe du cours d'Application Web
+    details:
+      - TODO
+  - title: Schwarzwald - Application Cloud Full-Stack d'organiation de voyage
+    date: 2025 - 2026
+    context: Hochshule Konstanz, projet de groud du cours de développement cloud
+    details:
+      - TODO
+  - title: PageRank - Algorithme de routage et classement réseau
+    date: "2023"
+    context: ENSEEIHT, Projet de groupe de Programmation Impérative (PIM)
+    details:
+      - Implémentaion de l'algo de PageRank entièrement en Ada
+      - Conception et évaluation des performances d'implémentation de matrices creuses et pleines
+      - Optimisation de l'utilisation de la mémoire et des performances en focntions des résultats d'évaluation
+      - Lecture de fichier et extractions de données avec un paquet E/S personnalisé
+      - Rédaction d'un rapport technique et architectural complet
+  - title: Cloud Hervy - Clone de Google Drive
+    date: "2024"
+    context: Projet personnel
+    details:
+      - Conception de l'architectyre d'une app full-stack de stockage de fichiers et d'une API REST
+      - Découverte d'Express.js, TypeScript, Node.js et MongoDB
+      - Développement d'une API REST complète (serveur/client)
+      - Accentuation sur la modularité et la maintenabilité
+  - title: Simulateur de vie particulaire
+    date: "2024"
+    context: ENSEEIHT, projet de groupe de Programmation Orientée Objet (POO)
+    details:
+      - Conception d'un simulateur de physique en Java et Swing au sein d'un environnement Scrum
+      - Utilisation des principes de la POO Java pour structurer le code source
+      - Mise en pratique des patrons de conception orientés objet et du travail en équipe agile
+
+experience:
+  - title: Développeur Symfony stagiaire
+    date: mars - sept 2026
+    company: Actimage
+    location: Paris 7
+    details:
+      - Développement d'une application web Symfony de gestion de BDD pour l'ONaCVG (organisame des anciens combattants)
+      - Optimisation des pipelines de déploiement en créant et livrant des images Docker sur les serveurs clients
+      - Application des normes strictes de qualité de code en intégrant des outils statique dans les workflows CI/CD Jenkins
+  - title: Développeur logiciel stagiaire
+    date: juin - juil 2025
+    company: IRIT
+    location: Toulouse
+    details:
+      - Conception d'un processeur d'annotations Java générant des assertions à partir de spécifications de type JML
+      - Invention d'un langage dédié (DSL) personnalisé sur une grammaire ANTLR pour exprimer pré/postconditions et invariants complexes
+      - Implémentation d'un processus de manipulation de l'AST JavaC pour générer dynamiquement du bytecode à la compilation
+  - title: Développeur WordPress stagiaire
+    date: juin 2024
+    company: Les Maths En Scène
+    location: Toulouse, France
+    details:
+      - Modernisation de l'identité numérique de l'association en refondant leur site WordPress
+  - title: Professeur particulier de Mathématiques et Physique, Indépendant
+    date: 2022 - 2026
+    location: Toulouse & Paris
+    details:
+      - Aide à la préparation au concours d'entrée de l'École de Santé des Armées
+      - SOutien scolaire hebdomadaire à domicile
+      - Tutorat bénévole dans un lycée parisien
+  - title: Serveur (restauration)
+    date: "2023"
+    company: Les Jardins d'Arcadie (résidence seniors)
+    location: Toulouse, France
+    details:
+      - Service au restaurant de la résidence
+      - Livraison de repas dans les appartements pour les résidents les plus dépendants
+  - title: Stagiaire d'observation, Laboratoires de recherche publique
+    date: Déc 2017 & Juin 2019
+    company: BIPM & IRAP
+    location: Toulouse & Paris, France
+    details:
+      - Découverte de l'histoire et des travaux menés sur les unités de mesure
+      - Compréhension de l'importance du travail en équipe (international, inter-laboratoires)
+      - Familiarisation avec les méthodes de conception des missions spatiales

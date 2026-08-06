@@ -96,10 +96,10 @@ properties:
     items:
       type: object
       required:
-        - language
+        - name
         - level
       properties:
-        language:
+        name:
           type: string
         level:
           type: string
