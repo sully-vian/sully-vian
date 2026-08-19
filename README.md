@@ -35,5 +35,6 @@ Sometimes I [stream](https://www.twitch.tv/sully_vian) and make [videos](https:/
 - [ ] A Prolog solver for LinkedIn's daily puzzles
 - [ ] A code formatter based off Tree-sitter thar formats like [this](https://pbs.twimg.com/media/HIGf_ScaMAA1Ga3?format=png)
 - [ ] A Tmux plugin to open links with a keybind [like Alacritty](https://wiki.archlinux.org/title/Alacritty#Hints)
+- [ ] XDromad : a window manager for X11 in Ocaml
 
 ---
